@@ -1,4 +1,4 @@
-# Numerical Integration
+# Numerical Integration 📈
 
 This repository contains a xtensor-based C++ implementation of `Riemann` and `Trapezoidal` integration methods.
 
