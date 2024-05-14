@@ -1,0 +1,17 @@
+[project]
+name = "numerical-integration"
+version = "0.1.0"
+description = "Add a short description here"
+authors = ["akemitakeo <akemitemi@gmail.com>"]
+channels = ["conda-forge"]
+platforms = ["linux-64"]
+
+[tasks]
+
+[dependencies]
+xeus-cling = ">=0.15.3,<0.16"
+xtensor = ">=0.25.0,<0.26"
+blas = ">=1.1,<2"
+openblas = ">=0.3.27,<0.4"
+xtensor-blas = ">=0.21.0,<0.22"
+xtl = ">=0.7.7,<0.8"
